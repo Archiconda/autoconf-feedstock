@@ -4,3 +4,5 @@ travis:
 appveyor:
   secure:
     BINSTAR_TOKEN: tumuXLL8PU75WMnRDemRy02ruEq2RpNxeK3dz0MjFssnosPm2v4EFjfNB4PTotA1
+shippable:
+  secure: {BINSTAR_TOKEN: bkTdATvev7sVFsP62xFV2ck215nXEtH7eWXdhzRRtbzeKquSkNhTGTCoa5FcLDvAVe36w+Sv59/3/oWNyMood8pIWjHLMC5CqqLdc4NRmyyaCKWys4CLhTTurIBPFSWUilxZW1KCKv/WHOe+zQDi2o9R9lf5/MizuwThHSQOIcqeTIn4wtPzbne5MeKSW+mRCsb+l4E/Q1oY2w/mTJ+izDWkxefstZ2t8RqOxH6H20wwNOOj/1WdeztdCOtCAl99r8Aj58odGyfUMAEyw89c5HglAEPurBQs21DZbHp10NmgSLyIbukplulRUm+cQ37loT/hFfTjPUCqLEC3lu6SPw==}
