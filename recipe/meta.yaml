@@ -22,6 +22,10 @@ build:
 
 requirements:
   host:
+    # The compilers aren't needed to build autoconf, but the `make check`
+    # command uses them to check for a functionning autoconf
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
     - m4
     - perl
     - make
