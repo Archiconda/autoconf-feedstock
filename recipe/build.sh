@@ -2,7 +2,7 @@
 
 ./configure --prefix=$PREFIX PERL='/usr/bin/env perl'
 
-make
+make -j{CPU_COUNT}
 make check
 make install
 
